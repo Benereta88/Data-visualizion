@@ -133,4 +133,3 @@ plt.show()
 # Slutsats 5: Den statistiska analysen visar en signifikant positiv korrelation mellan 'amount_sek' och 'num_people', vilket stärker observationen från scatter plot.
 
 # Benereta Hoxha uppgift 2, (individuela)
-# Slutsats 5: Den statistiska analysen visar en signifikant positiv korrelation mellan 'amount_sek' och 'persons', vilket stärker observationen från scatter plot.
