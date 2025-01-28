@@ -64,12 +64,12 @@ print(summary)
 # Steg 7: Exportera den bearbetade datan till en Excel-fil
 summary.to_excel("C:\\Users\\Book\\OneDrive - TUC Sweden\\Skola\\Data-visualizion\\inlämnnings-uppgift\\processed_data.xlsx", engine='openpyxl')
 # Kontrollera om Excel-filen har skapats korrekt
-excel_file_path = "C:\\Users\\Book\\OneDrive - TUC Sweden\\Skrivbordet\\inlämnnings-uppgift\\processed_data.xlsx"
+excel_file_path = ("C:\\Users\\Book\\OneDrive - TUC Sweden\\Skola\\Data-visualizion\\inlämnnings-uppgift\\processed_data.xlsx")
 if os.path.exists(excel_file_path):
     print(f"Excel-filen har skapats korrekt: {excel_file_path}")
 else:
     print("Något gick fel, Excel-filen skapades inte.")
-    
+
 
 # ANALYS:
 # Steg 8:  Utför utforskande dataanalys(EDA)
