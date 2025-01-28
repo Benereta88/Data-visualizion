@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # EXTRACT:
 # Steg 1: Importera CSV-filen
 
-csv_file_path = "C:\\Users\\Book\\OneDrive - TUC Sweden\\Skrivbordet\\inlämnnings-uppgift\\unemployment_benefit.csv"
+csv_file_path = "C:\\Users\\Book\\OneDrive - TUC Sweden\\Skola\\Data-visualizion\\inlämnnings-uppgift\\unemployment_benefit.csv"
 df = pd.read_csv(csv_file_path)
 print("Steg 1: Importera CSV-filen")
 print(df.head())
@@ -62,7 +62,7 @@ print(summary)
 
 # LOAD:
 # Steg 7: Exportera den bearbetade datan till en Excel-fil
-summary.to_excel("C:\\Users\\Book\\OneDrive - TUC Sweden\\Skrivbordet\\inlämnnings-uppgift\\processed_data.xlsx", engine='openpyxl')
+summary.to_excel("C:\\Users\\Book\\OneDrive - TUC Sweden\\Skola\\Data-visualizion\\inlämnnings-uppgift\\processed_data.xlsx", engine='openpyxl')
 # Kontrollera om Excel-filen har skapats korrekt
 excel_file_path = "C:\\Users\\Book\\OneDrive - TUC Sweden\\Skrivbordet\\inlämnnings-uppgift\\processed_data.xlsx"
 if os.path.exists(excel_file_path):
@@ -133,3 +133,4 @@ plt.show()
 # Slutsats 5: Den statistiska analysen visar en signifikant positiv korrelation mellan 'amount_sek' och 'num_people', vilket stärker observationen från scatter plot.
 
 # Benereta Hoxha uppgift 2, (individuela)
+
