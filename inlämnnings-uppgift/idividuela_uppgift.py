@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # EXTRACT:
 # Steg 1: Importera CSV-filen
 
-csv_file_path = "C:\\Users\\Book\\OneDrive - TUC Sweden\\Skola\\Data-visualizion\\inlämnnings-uppgift\\unemployment_benefit.csv"
+csv_file_path = "C:\\Users\\Book\\OneDrive - TUC Sweden\Skola\\Data-visualizion\\Grupp-arbete.2\\unemployment_benefit.csv"
 df = pd.read_csv(csv_file_path)
 print("Steg 1: Importera CSV-filen")
 print(df.head())
